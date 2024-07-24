@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 1
+
+   Cleo Coal Web sites summary
+   Author: Melissa Coates
+   Date: 2024-07-24
+
+   Filename:         sites.xml
+   Supporting Files: sites.xsd
+-->
+<cc:sites xmlns:cc="http://example.com/weekendfunsnacks/sites"
+          xmlns:sm="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xsi:schemaLocation="http://example.com/weekendfunsnacks/sites sites.xsd
+                              http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <cc:site>
+    <cc:name>Weekend Fun Snacks</cc:name>
+    <cc:totalPages>127</cc:totalPages>
+    <sm:urlset>
+      <sm:url>
+        <sm:loc>http://example.com/weekendfunsnacks/?cat=58</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/weekendfunsnacks/?cat=2</sm:loc>
+        <sm:lastmod>2017-12-29T06:03:34+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/weekendfunsnacks/?cat=15</sm:loc>
+        <sm:lastmod>2017-12-29T05:24:04+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/weekendfunsnacks/?cat=93</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/weekendfunsnacks/?cat=55</sm:loc>
+      </sm:url>
+    </sm:urlset>
+  </cc:site>
+
+  <cc:site>
+    <cc:name>Paleo Snacks</cc:name>
+    <cc:totalPages>52</cc:totalPages>
+    <sm:urlset>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=6</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=18</sm:loc>
+        <sm:lastmod>2017-09-19T17:13:19+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=54</sm:loc>
+        <sm:lastmod>2017-09-19T15:24:01+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=52</sm:loc>
+        <sm:lastmod>2017-09-28T21:03:11+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=201</sm:loc>
+        <sm:lastmod>2017-10-06T07:03:26+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/primalsnacks/?cat=11</sm:loc>
+      </sm:url>
+    </sm:urlset>
+  </cc:site>
+
+  <cc:site>
+    <cc:name>Veg Snacks</cc:name>
+    <cc:totalPages>17</cc:totalPages>
+    <sm:urlset>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=102</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=23</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=1</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=55</sm:loc>
+        <sm:lastmod>2017-06-12T08:05:32+00:00</sm:lastmod>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=201</sm:loc>
+      </sm:url>
+      <sm:url>
+        <sm:loc>http://example.com/vegsnacks/?cat=87</sm:loc>
+      </sm:url>
+    </sm:urlset>
+  </cc:site>
+
+</cc:sites>
